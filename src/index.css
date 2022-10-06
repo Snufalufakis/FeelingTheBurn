@@ -1,0 +1,7 @@
+body {
+      color: var(--sonic-silver);
+      background: var(--gray-web);
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
