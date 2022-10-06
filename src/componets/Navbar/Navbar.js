@@ -84,19 +84,29 @@ const ResponsiveAppBar = () => {
               }}
             >
               <MenuItem>
-                <Link to="/">
+                <Link href="/" exact="true" activeclassname="active">
                   {" "}
                   <Typography textAlign="center">Home</Typography>{" "}
                 </Link>
               </MenuItem>
               <MenuItem>
-                <Link to="/About">
+                <Link
+                  href="/About"
+                  exact="true"
+                  activeclassname="active"
+                  className=" about-link"
+                >
                   {" "}
                   <Typography textAlign="center">About</Typography>{" "}
                 </Link>
               </MenuItem>
               <MenuItem>
-                <Link to="/Contact">
+                <Link
+                  href="/Contact"
+                  exact="true"
+                  activeclassname="active"
+                  className=" contact-link"
+                >
                   {" "}
                   <Typography textAlign="center">Contact</Typography>{" "}
                 </Link>
@@ -115,7 +125,7 @@ const ResponsiveAppBar = () => {
             className="homerow"
             sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}
           >
-            <Link href="/" target="_blank" rel="noopener">
+            <Link href="/">
               <IconButton
                 to={"/"}
                 sx={{
@@ -130,7 +140,7 @@ const ResponsiveAppBar = () => {
                 <FontAwesomeIcon icon={faHome} color="#4d4d4de" />
               </IconButton>
             </Link>
-            <Link href="/About" target="_blank" rel="noopener">
+            <Link href="/About">
               <IconButton
                 to={"/"}
                 sx={{
@@ -145,7 +155,7 @@ const ResponsiveAppBar = () => {
                 <FontAwesomeIcon icon={faUser} color="#4d4d4de" />
               </IconButton>
             </Link>
-            <Link href="/Contact" target="_blank" rel="noopener">
+            <Link href="/Contact">
               <IconButton
                 to={"/"}
                 sx={{

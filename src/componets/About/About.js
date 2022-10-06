@@ -17,6 +17,7 @@ import wds from "./../../assets/images/wds.png";
 import pokewar from "./../../assets/images/pokewar.png";
 import offload from "./../../assets/images/offload.png";
 import portfolio from "./../../assets/images/portfolio3.0.png";
+import Resume from "./../../assets/other/LinkedIn resume-1.png";
 // material
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
@@ -27,8 +28,30 @@ import CardMedia from "@mui/material/CardMedia";
 import Button from "@mui/material/Button";
 import Typography from "@mui/material/Typography";
 import { Link } from "@mui/material";
+import Modal from "@mui/material/Modal";
 
 const About = () => {
+  const style = {
+    position: "absolute",
+    top: "50%",
+    left: "50%",
+    transform: "translate(-50%, -50%)",
+    width: 400,
+    bgcolor: "background.paper",
+    border: "2px solid #000",
+    boxShadow: 24,
+    p: 4,
+
+    img: {
+      width: "152%",
+      height: "200%",
+    },
+  };
+
+  const [open, setOpen] = React.useState(false);
+  const handleOpen = () => setOpen(true);
+  const handleClose = () => setOpen(false);
+
   const [letterClass] = useState("text-animate");
   return (
     <>
@@ -40,6 +63,17 @@ const About = () => {
             idx={15}
           />
         </h1>
+        <Button onClick={handleOpen}>Resume</Button>
+        <Modal
+          open={open}
+          onClose={handleClose}
+          aria-labelledby="modal-modal-title"
+          aria-describedby="modal-modal-description"
+        >
+          <Box sx={style}>
+            <img src={Resume} alt="resume" />
+          </Box>
+        </Modal>
         <p>
           {" "}
           My name is Michael Harris I'm 34 and I’m from the San Francisco Bay
@@ -55,6 +89,7 @@ const About = () => {
           talking more about my resume please email me directly
         </p>
       </Grid>
+
       <Box
         className="box"
         xs={12}

@@ -2,18 +2,23 @@ import About from "./componets/About";
 import Contact from "./componets/Contact";
 import Home from "./componets/Home";
 import CssBaseline from "@mui/material/CssBaseline";
-// import { Route } from "react-router-dom";
-import Navbar from "./componets/Navbar";
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+import Layout from "./componets/Outlet";
 import "./App.css";
 
 function App() {
   return (
     <>
       <CssBaseline />
-      <Navbar />
-      {/* <Home /> */}
-      <About />
-      {/* <Contact /> */}
+      <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Layout />}>
+            <Route index element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="contact" element={<Contact />} />
+          </Route>
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }
