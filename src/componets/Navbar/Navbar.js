@@ -4,12 +4,8 @@ import Logo from "../../assets/images/logo-modified.png";
 
 import { faEnvelope, faHome, faUser } from "@fortawesome/free-solid-svg-icons";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faGithub,
-  faLinkedin,
-  faTwitter,
-} from "@fortawesome/free-brands-svg-icons";
 import * as React from "react";
+// material design
 import AppBar from "@mui/material/AppBar";
 import Box from "@mui/material/Box";
 import Toolbar from "@mui/material/Toolbar";
@@ -18,20 +14,8 @@ import Typography from "@mui/material/Typography";
 import Menu from "@mui/material/Menu";
 import MenuIcon from "@mui/icons-material/Menu";
 import Container from "@mui/material/Container";
-import Avatar from "@mui/material/Avatar";
-import Button from "@mui/material/Button";
-import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
-import AdbIcon from "@mui/icons-material/Adb";
 import { Link } from "@mui/material";
-import { NavLink } from "react-router-dom";
-
-const settings = ["Profile", "Account", "Dashboard", "Logout"];
-const buttonHome = {
-  "&:after": {
-    content: "HOME",
-  },
-};
 
 const ResponsiveAppBar = () => {
   const [anchorElNav, setAnchorElNav] = React.useState(null);
@@ -39,9 +23,6 @@ const ResponsiveAppBar = () => {
 
   const handleOpenNavMenu = (event) => {
     setAnchorElNav(event.currentTarget);
-  };
-  const handleOpenUserMenu = (event) => {
-    setAnchorElUser(event.currentTarget);
   };
 
   const handleCloseNavMenu = () => {
@@ -77,7 +58,6 @@ const ResponsiveAppBar = () => {
           <Box sx={{ flexGrow: 1, display: { xs: "flex", md: "none" } }}>
             <IconButton
               size="large"
-              aria-label="account of current user"
               aria-controls="menu-appbar"
               aria-haspopup="true"
               onClick={handleOpenNavMenu}
@@ -103,8 +83,23 @@ const ResponsiveAppBar = () => {
                 display: { xs: "block", md: "none" },
               }}
             >
-              <MenuItem onClick={handleCloseNavMenu}>
-                <Typography textAlign="center">{}</Typography>
+              <MenuItem>
+                <Link to="/">
+                  {" "}
+                  <Typography textAlign="center">Home</Typography>{" "}
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link to="/About">
+                  {" "}
+                  <Typography textAlign="center">About</Typography>{" "}
+                </Link>
+              </MenuItem>
+              <MenuItem>
+                <Link to="/Contact">
+                  {" "}
+                  <Typography textAlign="center">Contact</Typography>{" "}
+                </Link>
               </MenuItem>
             </Menu>
           </Box>

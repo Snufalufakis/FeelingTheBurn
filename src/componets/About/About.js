@@ -16,6 +16,7 @@ import generator from "./../../assets/images/generator.png";
 import wds from "./../../assets/images/wds.png";
 import pokewar from "./../../assets/images/pokewar.png";
 import offload from "./../../assets/images/offload.png";
+import portfolio from "./../../assets/images/portfolio3.0.png";
 // material
 import Box from "@mui/material/Box";
 import Grid from "@mui/material/Grid";
@@ -54,12 +55,18 @@ const About = () => {
           talking more about my resume please email me directly
         </p>
       </Grid>
-      <Box className="box" xs={12} md={4}>
+      <Box
+        className="box"
+        xs={12}
+        md={4}
+        style={{ textAlign: "-webkit-center" }}
+      >
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
+            sx={{ height: "240px", objectFit: "fill" }}
             component="img"
             alt="Pokemon card battle"
-            height="140"
+            height="14"
             image={pokewar}
           />
           <CardContent>
@@ -86,6 +93,7 @@ const About = () => {
         </Card>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
+            sx={{ height: "240px", objectFit: "fill" }}
             component="img"
             alt="green iguana"
             height="140"
@@ -115,6 +123,7 @@ const About = () => {
         </Card>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
+            sx={{ height: "240px", objectFit: "fill" }}
             component="img"
             alt="green iguana"
             height="140"
@@ -144,6 +153,7 @@ const About = () => {
         </Card>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
+            sx={{ height: "240px", objectFit: "fill" }}
             component="img"
             alt="green iguana"
             height="140"
@@ -173,6 +183,7 @@ const About = () => {
         </Card>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
+            sx={{ height: "240px", objectFit: "fill" }}
             component="img"
             alt="green iguana"
             height="140"
@@ -202,14 +213,15 @@ const About = () => {
         </Card>
         <Card sx={{ maxWidth: 345 }}>
           <CardMedia
+            sx={{ height: "240px", objectFit: "fill" }}
             component="img"
             alt="green iguana"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
+            height="14"
+            image={portfolio}
           />
           <CardContent>
             <Typography gutterBottom variant="h5" component="div">
-              Lizard
+              Updated Portfolio
             </Typography>
             <Typography variant="body2" color="text.secondary">
               Lizards are a widespread group of squamate reptiles, with over
