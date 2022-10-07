@@ -109,17 +109,25 @@ const About = () => {
               Pokemon War
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              A friendly Pokemon battle thats involves two players battening it
+              out with the original 151 pokemon
             </Typography>
           </CardContent>
           <CardActions>
-            <Link>
+            <Link
+              href="https://github.com/dnsnguy08/Pokemon-Battle"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Button size="small">
                 <FontAwesomeIcon icon={faGitAlt} />
               </Button>
             </Link>
-            <Link>
+            <Link
+              href="https://dnsnguy08.github.io/Pokemon-Battle/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Button size="small">
                 <FontAwesomeIcon icon={faHtml5} />
               </Button>
@@ -130,7 +138,7 @@ const About = () => {
           <CardMedia
             sx={{ height: "240px", objectFit: "fill" }}
             component="img"
-            alt="green iguana"
+            alt="image of a work day schedule"
             height="140"
             image={wds}
           />
@@ -139,19 +147,17 @@ const About = () => {
               Work Day Scheduler
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              Need a Work Day Scheduler look no further!
             </Typography>
           </CardContent>
           <CardActions>
-            <Link>
+            <Link
+              href="https://snufalufakis.github.io/Work-Schedule/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Button size="small">
                 <FontAwesomeIcon icon={faGitAlt} />
-              </Button>
-            </Link>
-            <Link>
-              <Button size="small">
-                <FontAwesomeIcon icon={faHtml5} />
               </Button>
             </Link>
           </CardActions>
@@ -160,7 +166,7 @@ const About = () => {
           <CardMedia
             sx={{ height: "240px", objectFit: "fill" }}
             component="img"
-            alt="green iguana"
+            alt="image of a portfolio"
             height="140"
             image={oldPortfolio}
           />
@@ -169,19 +175,17 @@ const About = () => {
               First Portfolio
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              my very first portfolio
             </Typography>
           </CardContent>
           <CardActions>
-            <Link>
+            <Link
+              href="https://snufalufakis.github.io/Homework-2/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Button size="small">
                 <FontAwesomeIcon icon={faGitAlt} />
-              </Button>
-            </Link>
-            <Link>
-              <Button size="small">
-                <FontAwesomeIcon icon={faHtml5} />
               </Button>
             </Link>
           </CardActions>
@@ -190,7 +194,7 @@ const About = () => {
           <CardMedia
             sx={{ height: "240px", objectFit: "fill" }}
             component="img"
-            alt="green iguana"
+            alt="image or a password generator"
             height="140"
             image={generator}
           />
@@ -199,19 +203,17 @@ const About = () => {
               Password Generator
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              Generate a random password
             </Typography>
           </CardContent>
           <CardActions>
-            <Link>
+            <Link
+              href="https://snufalufakis.github.io/Homework3/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Button size="small">
                 <FontAwesomeIcon icon={faGitAlt} />
-              </Button>
-            </Link>
-            <Link>
-              <Button size="small">
-                <FontAwesomeIcon icon={faHtml5} />
               </Button>
             </Link>
           </CardActions>
@@ -220,7 +222,7 @@ const About = () => {
           <CardMedia
             sx={{ height: "240px", objectFit: "fill" }}
             component="img"
-            alt="green iguana"
+            alt="offload website screenshot"
             height="140"
             image={offload}
           />
@@ -229,17 +231,26 @@ const About = () => {
               OFFload
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              An app that allowed users to post junk they are looking to get rid
+              of. The intention is for other users to see the post and want the
+              item and then go and retreive it from the poster
             </Typography>
           </CardContent>
           <CardActions>
-            <Link>
+            <Link
+              href="https://github.com/ayeh6/Offload"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Button size="small">
                 <FontAwesomeIcon icon={faGitAlt} />
               </Button>
             </Link>
-            <Link>
+            <Link
+              href="https://yeh-offload.herokuapp.com/"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Button size="small">
                 <FontAwesomeIcon icon={faHtml5} />
               </Button>
@@ -250,7 +261,7 @@ const About = () => {
           <CardMedia
             sx={{ height: "240px", objectFit: "fill" }}
             component="img"
-            alt="green iguana"
+            alt="portfolio"
             height="14"
             image={portfolio}
           />
@@ -259,21 +270,25 @@ const About = () => {
               Updated Portfolio
             </Typography>
             <Typography variant="body2" color="text.secondary">
-              Lizards are a widespread group of squamate reptiles, with over
-              6,000 species, ranging across all continents except Antarctica
+              Currently a work in progress Portfolio, some elements where used
+              from it for this.
             </Typography>
           </CardContent>
           <CardActions>
-            <Link>
+            <Link
+              href="https://github.com/Snufalufakis/Keep-Your-Eyes-Peeled"
+              target="_blank"
+              rel="noreferrer"
+            >
               <Button size="small">
                 <FontAwesomeIcon icon={faGitAlt} />
               </Button>
             </Link>
-            <Link>
+            {/* <Link>
               <Button size="small">
                 <FontAwesomeIcon icon={faHtml5} />
               </Button>
-            </Link>
+            </Link> */}
           </CardActions>
         </Card>
       </Box>
