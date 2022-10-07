@@ -1,7 +1,7 @@
 {
   "name": "feeltheburn",
   "version": "0.1.0",
-  "homepage": "https://Snufalufakis.github.io/FeelingTheBurn",
+  "homepage": "https://Snufalufakis.github.io/feeltheburn",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.7.0",

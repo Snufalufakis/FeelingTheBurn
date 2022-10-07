@@ -3,14 +3,7 @@ import { useState } from "react";
 import "./index.css";
 import AnimatedLetters from "../AnimatedLetters";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import {
-  faCss3,
-  faGitAlt,
-  faHtml5,
-  faJsSquare,
-  faNodeJs,
-  faReact,
-} from "@fortawesome/free-brands-svg-icons";
+import { faGitAlt, faHtml5 } from "@fortawesome/free-brands-svg-icons";
 import oldPortfolio from "./../../assets/images/protofolio.png";
 import generator from "./../../assets/images/generator.png";
 import wds from "./../../assets/images/wds.png";
