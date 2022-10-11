@@ -1,0 +1,23 @@
+{
+  "files": {
+    "main.css": "/feelingtheburn/static/css/main.abfefc43.css",
+    "main.js": "/feelingtheburn/static/js/main.58c863c3.js",
+    "static/media/pokewar.png": "/feelingtheburn/static/media/pokewar.b4fd36bffaa93626cc84.png",
+    "static/media/offload.png": "/feelingtheburn/static/media/offload.20d812c6b9084f4b17ff.png",
+    "static/media/logo-modified.png": "/feelingtheburn/static/media/logo-modified.70572cb899e2a08ad979.png",
+    "static/media/protofolio.png": "/feelingtheburn/static/media/protofolio.e9e1c28f6bc2f973f426.png",
+    "static/media/LinkedIn resume-1.png": "/feelingtheburn/static/media/LinkedIn resume-1.af369a7ff64642caefb9.png",
+    "static/media/PlayfairDisplay-Regular.ttf": "/feelingtheburn/static/media/PlayfairDisplay-Regular.27705d9c43e8c36b1abd.ttf",
+    "static/media/Roboto-Regular.ttf": "/feelingtheburn/static/media/Roboto-Regular.fc2b5060f7accec5cf74.ttf",
+    "static/media/wds.png": "/feelingtheburn/static/media/wds.b81a94daa8477248149c.png",
+    "static/media/generator.png": "/feelingtheburn/static/media/generator.919630342a832fed866d.png",
+    "static/media/portfolio3.0.png": "/feelingtheburn/static/media/portfolio3.0.b3deb26312d2c5ec6bb4.png",
+    "index.html": "/feelingtheburn/index.html",
+    "main.abfefc43.css.map": "/feelingtheburn/static/css/main.abfefc43.css.map",
+    "main.58c863c3.js.map": "/feelingtheburn/static/js/main.58c863c3.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.abfefc43.css",
+    "static/js/main.58c863c3.js"
+  ]
+}
