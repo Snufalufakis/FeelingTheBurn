@@ -2,8 +2,8 @@ import * as React from "react";
 import { useState } from "react";
 import "./index.css";
 import AnimatedLetters from "../AnimatedLetters";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faGitAlt, faHtml5 } from "@fortawesome/free-brands-svg-icons";
+// import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+// import { faGitAlt, faHtml5 } from "@fortawesome/free-brands-svg-icons";
 import oldPortfolio from "./../../assets/images/protofolio.png";
 import generator from "./../../assets/images/generator.png";
 import wds from "./../../assets/images/wds.png";
@@ -113,7 +113,7 @@ const About = () => {
               rel="noreferrer"
             >
               <Button size="small">
-                <FontAwesomeIcon icon={faGitAlt} />
+                {/* <FontAwesomeIcon icon={faGitAlt} /> */}
               </Button>
             </Link>
             <Link
@@ -122,7 +122,7 @@ const About = () => {
               rel="noreferrer"
             >
               <Button size="small">
-                <FontAwesomeIcon icon={faHtml5} />
+                {/* <FontAwesomeIcon icon={faHtml5} /> */}
               </Button>
             </Link>
           </CardActions>
@@ -150,7 +150,7 @@ const About = () => {
               rel="noreferrer"
             >
               <Button size="small">
-                <FontAwesomeIcon icon={faGitAlt} />
+                {/* <FontAwesomeIcon icon={faGitAlt} /> */}
               </Button>
             </Link>
           </CardActions>
@@ -178,7 +178,7 @@ const About = () => {
               rel="noreferrer"
             >
               <Button size="small">
-                <FontAwesomeIcon icon={faGitAlt} />
+                {/* <FontAwesomeIcon icon={faGitAlt} /> */}
               </Button>
             </Link>
           </CardActions>
@@ -206,7 +206,7 @@ const About = () => {
               rel="noreferrer"
             >
               <Button size="small">
-                <FontAwesomeIcon icon={faGitAlt} />
+                {/* <FontAwesomeIcon icon={faGitAlt} /> */}
               </Button>
             </Link>
           </CardActions>
@@ -226,7 +226,7 @@ const About = () => {
             <Typography variant="body2" color="text.secondary">
               An app that allowed users to post junk they are looking to get rid
               of. The intention is for other users to see the post and want the
-              item and then go and retreive it from the poster
+              item and then go and retrieve it from the poster
             </Typography>
           </CardContent>
           <CardActions>
@@ -236,7 +236,7 @@ const About = () => {
               rel="noreferrer"
             >
               <Button size="small">
-                <FontAwesomeIcon icon={faGitAlt} />
+                {/* <FontAwesomeIcon icon={faGitAlt} /> */}
               </Button>
             </Link>
             <Link
@@ -245,7 +245,7 @@ const About = () => {
               rel="noreferrer"
             >
               <Button size="small">
-                <FontAwesomeIcon icon={faHtml5} />
+                {/* <FontAwesomeIcon icon={faHtml5} /> */}
               </Button>
             </Link>
           </CardActions>
@@ -274,14 +274,14 @@ const About = () => {
               rel="noreferrer"
             >
               <Button size="small">
-                <FontAwesomeIcon icon={faGitAlt} />
+                {/* <FontAwesomeIcon icon={faGitAlt} /> */}
               </Button>
             </Link>
-            {/* <Link>
+            <Link>
               <Button size="small">
-                <FontAwesomeIcon icon={faHtml5} />
+                {/* <FontAwesomeIcon icon={faHtml5} /> */}
               </Button>
-            </Link> */}
+            </Link>
           </CardActions>
         </Card>
       </Box>

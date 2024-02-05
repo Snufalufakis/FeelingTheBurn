@@ -1,9 +1,9 @@
-import About from "./componets/About";
-import Contact from "./componets/Contact";
-import Home from "./componets/Home";
+import About from "./components/About";
+import Contact from "./components/Contact";
+import Home from "./components/Home";
 import CssBaseline from "@mui/material/CssBaseline";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Layout from "./componets/Outlet";
+import Layout from "./components/Outlet";
 import "./App.css";
 
 function App() {

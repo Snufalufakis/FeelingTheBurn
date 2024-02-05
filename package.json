@@ -1,5 +1,5 @@
 {
-  "name": "feelingtheburn",
+  "name": "npm-check-updates",
   "homepage": "http://www.snufalufakis.github.io/feelingtheburn",
   "version": "0.1.0",
   "private": true,
@@ -50,5 +50,9 @@
   },
   "devDependencies": {
     "gh-pages": "^4.0.0"
-  }
+  },
+  "description": "## Table of contents",
+  "main": "index.js",
+  "author": "",
+  "license": "ISC"
 }
