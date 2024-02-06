@@ -3,11 +3,10 @@ import Navbar from "../Navbar/index";
 
 const Layout = () => {
   return (
-    <div className="App">
+    <div>
         <Navbar />
       <div>
         <Outlet />
-        <br />
       </div>
     </div>
   );
